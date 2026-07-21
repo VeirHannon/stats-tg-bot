@@ -1,5 +1,8 @@
 # Statistics Control Telegram Bot
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/language-python-blue)
+
 A Telegram bot for tracking work reports across a small team. Users log in with a
 role (Junior / Mid / Admin), start a shift, submit how much work they processed,
 and view their statistics. Supervisors can generate reports, browse per-junior
