@@ -31,7 +31,7 @@ structure is useful to someone building a similar reporting bot.
    pip install -r requirements.txt
    ```
 
-2. Provide your bot token via environment variable (never hard-code it):
+2. Provide your bot token via environment variable:
 
    ```bash
    export BOT_TOKEN="123456:your-token-here"     # Linux/macOS
