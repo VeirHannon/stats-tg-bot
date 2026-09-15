@@ -9,9 +9,7 @@ from datetime import datetime
 import telebot
 from telebot import types
 
-# Bot token is read from the environment. Never hard-code secrets in source.
-#   Linux/macOS: export BOT_TOKEN="123456:ABC..."
-#   Windows:     set BOT_TOKEN=123456:ABC...
+
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN environment variable is not set.")
